@@ -328,7 +328,7 @@ button {
   color: #434455;
 }
 
-.icon-list {
+/*.icon-list {
   display: flex;
   gap: 24px;
   line-height: 0;
@@ -352,7 +352,7 @@ button {
 }
 .team-icon {
   fill: #f4f4fd;
-}
+}*/
 /* #endregion team */
 
 /* #region  Our Portfolio */
