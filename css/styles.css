@@ -470,6 +470,7 @@ button {
 }
 
 .item-icon-footer {
+  gap: 16px;
 }
 .icon-link-footer {
   display: flex;
@@ -484,8 +485,8 @@ button {
 .footer-icon {
   fill: #f4f4fd;
 }
-.item-icon-footer:hover .icon-link-footer,
-.item-icon-footer:focus .icon-link-footer {
+.icon-link-footer:hover,
+.icon-link-footer:focus {
   background-color: #31d0aa;
 }
 .nav-footer {
