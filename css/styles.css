@@ -216,6 +216,7 @@ button {
   height: 56px;
   margin-right: auto;
   margin-left: auto;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-bth:hover,
@@ -243,6 +244,7 @@ button {
   width: 264px;
   height: 112px;
   background-color: #f4f4fd;
+  margin-bottom: 8px;
 }
 .icon-bnf {
 }
@@ -292,6 +294,8 @@ button {
   border-radius: 0 0 4px 4px;
   background-color: #fff;
   width: calc((100%-72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .title-team {
   font-weight: 700;
@@ -431,6 +435,7 @@ button {
   padding-bottom: 100px;
 }
 .footer-cont {
+  margin-right: 120px;
 }
 .footer .logo .logo-part {
   color: #f4f4fd;
