@@ -45,9 +45,6 @@ img {
 section {
   padding-top: 120px;
   padding-bottom: 120px;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
 }
 a {
   text-decoration: none;
@@ -184,6 +181,9 @@ button {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -279,11 +279,9 @@ button {
 .team-cont {
 }
 .cont-team-title {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 16px;
-  margin-right: 16px;
   padding: 32px 0;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .item-team {
   list-style-type: none;
@@ -317,6 +315,9 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-left: 49px;
+  padding-right: 49px;
   margin-bottom: 8px;
 }
 .text-team {
@@ -325,59 +326,43 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 32px;
+  padding-left: 52px;
+  padding-right: 52px;
   color: #434455;
 }
 .icon-list {
   display: flex;
-  gap: 16px;
-  line-height: 0;
-}
-
-.item-icon {
-  gap: 16px;
-}
-.icon-link {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  background-color: #4d5ae5;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-icon {
-  fill: #f4f4fd;
-}
-.item-icon:hover .icon-link,
-.item-icon:focus .icon-link {
-  background-color: #404bbf;
-}
-/*.icon-list {
-  display: flex;
   gap: 24px;
-  line-height: 0;
-}
-.item-icon:hover .icon-link,
-.item-icon:focus .icon-link {
-  background-color: #404bbf;
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
 }
 
 .item-icon {
+  width: 40px;
+  height: 40px;
 }
 .icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   fill: #f4f4fd;
-}*/
+}
+.item-icon:hover .icon-link,
+.item-icon:focus .icon-link {
+  background-color: #404bbf;
+}
 /* #endregion team */
 
 /* #region  Our Portfolio */
